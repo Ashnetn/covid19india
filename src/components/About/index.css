@@ -1,0 +1,53 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.about-main-container {
+  width: 90%;
+}
+
+.about-head {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.last-updated {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+
+.faq-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.faq-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.faq {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-size: 13px;
+  font-weight: 400;
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+
+.faq-answer {
+  font-size: 13px;
+  font-weight: 400;
+  color: #007bff;
+  font-family: 'Roboto';
+}

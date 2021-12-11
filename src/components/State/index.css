@@ -1,0 +1,152 @@
+.state-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.state-main-container {
+  width: 90%;
+  margin-top: 30px;
+}
+
+.state-head {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.last-updated {
+  font-size: 14px;
+  font-weight: 400;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+
+.state-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.state-head {
+  border-radius: 50px;
+  padding: 12px 20px;
+  background-color: #13263f;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0ea5e9;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.tested-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  text-align: right;
+  margin-bottom: 1px;
+}
+
+.tested-count {
+  font-size: 18px;
+  font-weight: 500;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  text-align: right;
+  margin-top: 1px;
+}
+
+.cases-insights-container {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.case-status-count-container {
+  width: 25%;
+  padding: 20px 10px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.bg-red {
+  background-color: #331427;
+}
+.bg-blue {
+  background-color: #132240;
+}
+.bg-green {
+  background-color: #182829;
+}
+.bg-grey {
+  background-color: #212230;
+}
+
+.bg-violet {
+  background-color: #230f41;
+}
+
+@media screen and (max-width: 576px) {
+  .case-status-count-container {
+    width: 50%;
+  }
+}
+
+.top-districts-head {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 50px;
+}
+
+.top-districts-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.top-districts {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .top-districts {
+    width: 50%;
+  }
+}
+
+.top-districts-count {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #94a3b8;
+  margin-right: 15px;
+}
+
+.district-name {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #94a3b8;
+}
+
+.bar {
+  width: 400px;
+}
+
+.chart-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
